@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url(css/banner.css);
+@import url(css/card.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 90px 20px 0;
+}
+
+.header {
+  /* background-color: palevioletred;  */
+  background-image: linear-gradient( rgba(174, 0, 255, 0.499), pink);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid lightgrey;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.container-img img{
+  border-radius: 30px;
+  padding: 0 10px;
+}
+.container-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+img{
+  display: block;
+  margin-top:15px;
+  max-width: 100%;
+  height: 50px; 
+  filter: drop-shadow(0 0 2px yellow);
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+  z-index: -1;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  background-color: rgba(233, 226, 11, 0.842);
+  transition: 0.5s;
+}
+
+/* TOGGLE */
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  img{
+    height: 40px; 
+    margin-top:10px;
+    margin-left: 5px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(236, 244, 11, 0.983);
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(40% - 60px);
+   /*  overflow-y: auto; */
+
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+  }
+  .nav-link {
+    color: black;
+    
+  }
+
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: rgb(217, 26, 144);
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+.tituloMovil{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5 rem;
+  color: yellow;
+
+}
+@media (min-width: 768px) {
+  .tituloMovil{
+    display: none;
+  }
+}
