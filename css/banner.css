@@ -9,18 +9,19 @@
   }
   .bg_img{
     background-image: url(/img/banner_confeti.jpg);
-    background-repeat: no-repeat;
+  /*   background-repeat: no-repeat; */
     background-position: center center;
-   /*  background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
-
+    
 
   }
   .banner {
     width: 100%;
-    height: 100%;
+   /*  height: 100%; */
     display: flex;
     flex-direction: column;
+    height: 500px;
     z-index: -1;
    
 

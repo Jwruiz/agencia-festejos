@@ -10,7 +10,7 @@
     <title>Js Eventos y Festejos</title>
     
   </head>
-  <body>
+  <body onload="interval()">
     <header class="header">
       <nav class="nav">
         <!-- <a href="#" class="logo nav-link">Logo</a> -->
@@ -39,34 +39,45 @@
         </ul>
       </nav>
     </header>
-    <main class="bg_img">
+    <main class="">
       
-      <section class="banner">
+      <section class="banner bg_img">
         <h3 class="banner_title">planificamos todo por ti</h3>
         <!-- <p><a href="">preguntame...</a></p> -->
         <div class="formular_conteiner">
           <p>envianos tu consulta</p>
           <p><a href="">Contacto</a></p>
-          <!--  <label class="fomular" for="">
-            <input type="text" placeholder="preguntame">
-            <br>
-            <br>
-            <button>enviar</button>
-          </label> -->
         </div>
       </section>
+      <h1>nuestros eventos</h1>
       <section>
-    <div class="container_card">
-          <div class="card">
-              <img src="/img/banner_confeti.jpg" alt="">
-              <div class="info">
-                  <h3>Lorem, ipsum dolor.</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, consequuntur!</p>
-              </div> 
+        <div class="conteiner-slider">
+          <img src="" alt="" id="slide">
+        </div>
         
+      </section>
+      <!--  <div class="contenedor-slider">
+         <div class="slider-izquierdo">
+           <img src="img/fiestamicky-2.jpg" alt="">
+         </div>
+         
+         <div class="slider-screen">
+           <img name="Imagenes">
+         </div>
+         
+         <div class="slider-derecho">
+           <img src="img/fiestanena-3.jpg" alt="">
+         </div>
+       </div> -->
+      <!--     <div class="container_card">
+        <div class="card">
+                    <img src="/img/banner_confeti.jpg" alt="">
+                    <div class="info">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, consequuntur!</p>
+                    </div>  -->
       
-    </section>
-    
-  </main>
-</body>
-</html>
+    </main>
+    <script src="./src/slider.js"></script>
+  </body>
+  </html>
