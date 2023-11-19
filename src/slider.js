@@ -1,5 +1,5 @@
 const arrayImg = [
-    './img/fiestanena-5.jpg',
+    './img/fiestamicky-2.jpg',
     './img/fiestanena-3.jpg',
     './img/fiestanena-5.jpg'
 ];
@@ -17,3 +17,8 @@ const interval = () => {
 }
 
 
+
+    /* document.addEventListener('click', (e) => {
+        openNav()
+        e.preventDefault
+    }) */
