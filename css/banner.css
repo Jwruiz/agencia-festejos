@@ -4,7 +4,7 @@
     padding: 90px 20px 0;
   }
   .bg_img{
-    background-image: url(/img/bg_confet.jpg);
+    background-image: url(../img/bg_confet.jpg);
   /*   background-repeat: no-repeat; */
     background-position: center center;
     background-attachment: fixed;
