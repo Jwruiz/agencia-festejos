@@ -1,7 +1,11 @@
 const arrayImg = [
-    './img/fiestamicky-2.jpg',
-    './img/fiestanena-3.jpg',
-    './img/fiestanena-5.jpg'
+    './img/fc-gold.jpeg',
+    './img/fc-rosa.jpeg',
+    './img/happyB.jpeg',
+    './img/fd.jpeg',
+    './img/felizA.jpeg',
+    './img/fd-pink.jpeg',
+    './img/HB-green.jpeg', 
 ];
 
 const img = document.querySelector('#slide');
