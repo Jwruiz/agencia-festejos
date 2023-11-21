@@ -1,5 +1,5 @@
 .accordeon{
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.802);
   color: black;
   cursor: pointer;
   padding: 20px;
@@ -8,24 +8,45 @@
   text-align: left;
   outline: none;
   font-size: 16px;
+  transition: all 1s ease-in-out;
 }
 .active, .accordeon:hover{
-  background-color: orange;
+  background-color: rgba(174, 0, 255, 0.41);
+  transition: 1s;
+  color: white;
+  transition: all 1s ease-in-out;
 }
 .panel {
   padding: 0px 20px;
   display: none;
-  background-color: blueviolet;
+  background-color: rgba(229, 235, 33, 0.611);
   overflow: hidden;
+  transition: all 1s ease-in-out;
 }
 .grid_img{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); */
- /*  border: 2px solid black; */
+  grid-template-columns: repeat(4, 1fr);
+/*   border: 2px solid black; */
   gap: 20px;
   align-self: center;
   align-items: center;
 }
+.grid_pic{
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 2px solid black; */
+  justify-content: center;
+  padding: 15px 0px;
+}
+.grid_pic img{
+  width: 100%;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .grid_img{
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;  
+ } 
 
 
 /* .grid_regalos{
@@ -58,13 +79,3 @@
   background-color: yellow;
   filter: drop-shadow(10px 8px 2px rgba(255, 0, 217, 0.848));}
  */
-
-/* .grid_pic::before hover{
-  img{width: 400px;}
-}
- */
-/*  @media (max-width: 768px) {
-  .grid_img{
-  grid-template-columns: repeat(1, 1fr);
-  width: 100%;  
- } */
