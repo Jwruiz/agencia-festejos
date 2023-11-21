@@ -4,7 +4,7 @@ for (let i = 0; i< elementosAcordeon.length; i++){
         this.classList.toggle("active");
         let panel = this.nextElementSibling;
         if (panel.style.display == "block"){
-            panel.style.display ="none";
+            panel.style.display = "none";
         }else {
             panel.style.display = "block";
         }
