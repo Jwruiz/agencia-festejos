@@ -170,3 +170,32 @@ img{
     display: none;
   }
 }
+/*footer*/
+.footer_conteiner{
+  background-image: linear-gradient( rgba(174, 0, 255, 0.499), pink);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.foot_menu{
+  list-style: none;
+  padding: 20px;
+}
+.foot_link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.foot_text{
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.foot_img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

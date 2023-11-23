@@ -1,8 +1,6 @@
 .pag_service{
     display: flex;
     justify-content: space-around;
-    /* border: solid 2px black; */
-/*     background-color: blue; */
     gap: 15px;
     padding: 20px;
 }
@@ -17,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     
     gap: 15px;;
 }
