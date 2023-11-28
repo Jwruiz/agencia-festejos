@@ -1,26 +1,39 @@
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
   body {
     font-family: sans-serif;
-    padding: 90px 20px 0;
+   
   }
-  .bg_img{
+/*   .bg_img{
     background-image: url(../img/bg_confet.jpg);
-  /*   background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     z-index: 0;
     backdrop-filter: blur(2px) brightness(.9);
-  }
-
+  } */
+ .main_img{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.335), rgba(0, 0, 0, .5)), url(../img/globos-cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+    backdrop-filter: blur(2px) brightness(.9);
+  } 
   .banner {
     width: 100%;
-   /*  height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 700px;
     z-index: -1;
+    margin-top: auto;
    
    font-family: 'Albert Sans', sans-serif;
    font-size: large;

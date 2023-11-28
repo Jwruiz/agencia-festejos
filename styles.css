@@ -6,26 +6,24 @@
 @import url(css/service.css);
 
 
-* {
+*::after {
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
   font-family: 'Albert Sans', sans-serif;
   font-size: 1.5rem;
-  padding: 90px 20px 0;
 }
 
 .header {
-  /* background-color: palevioletred;  */
   background-image: linear-gradient( rgba(174, 0, 255, 0.499), pink);
   height: 80px;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  border: 1px solid lightgrey;
   z-index: 2;
 }
 
@@ -172,7 +170,8 @@ img{
 }
 /*footer*/
 .footer_conteiner{
-  background-image: linear-gradient( rgba(174, 0, 255, 0.499), pink);
+  max-width: 100%;
+  background-image: linear-gradient( rgba(173, 49, 231, 0.499), rgba(200, 75, 214, 0.816));
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }

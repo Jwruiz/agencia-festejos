@@ -1,14 +1,14 @@
 .pag_service{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding: 20px;
 }
 .service_item{
-    background-color: rgba(174, 0, 255, 0.41);
+    background-color: rgba(238, 234, 10, 0.841);
     padding: 20px;
     border-radius: 20px;
-    color: black;
+    color: white;
     font-size: 1rem;
 
     display: flex;
