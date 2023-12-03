@@ -8,21 +8,13 @@
     font-family: sans-serif;
    
   }
-/*   .bg_img{
-    background-image: url(../img/bg_confet.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    z-index: 0;
-    backdrop-filter: blur(2px) brightness(.9);
-  } */
+
  .main_img{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.335), rgba(0, 0, 0, .5)), url(../img/globos-cover.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.335), rgba(0, 0, 0, .5)), url(../img/gb_boolun.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     z-index: 0;
     backdrop-filter: blur(2px) brightness(.9);
   } 
