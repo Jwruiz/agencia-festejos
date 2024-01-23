@@ -1,15 +1,19 @@
 .secction_slider{
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
+}
+.slider_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .conteiner-slider {
-    width: 50%;
+    width: 80%;
     display: inline-block;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 20px;
     filter: drop-shadow(10px 8px 2px rgba(255, 0, 217, 0.848));
