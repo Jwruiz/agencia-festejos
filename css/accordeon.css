@@ -1,3 +1,6 @@
+.accordeon_title{
+  font-family: 'Dancing Script', cursive;
+}
 .accordeon_contiener{
   display: flex;
   flex-direction: column;
@@ -20,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: drop-shadow(10px 8px 2px rgba(176, 170, 4, 0.922));
+  filter: drop-shadow(10px 8px 2px rgba(243, 243, 231, 0.946));
 
 }
 .active, .accordeon:hover{
@@ -31,7 +34,7 @@
 }
 .acc1{
   background-image: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/D-cover.jpg);
-  height: 200px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +44,7 @@
 } 
 .acc2{
   background-image: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/P-cover.jpg);
-  height: 200px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +54,7 @@
 } 
 .acc3{
   background-image: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../img/M-cover.jpg);
-  height: 200px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +65,7 @@
 .panel {
   padding: 0px 20px;
   display: none;
-  background-color: rgba(228, 235, 33, 0.977);
+  background-color: rgba(151, 83, 163, 0.717);
   overflow: hidden;
   transition: all 1s ease-in-out;
   width: 100%;
@@ -85,11 +88,14 @@
 }
 .contenedor_numero{
   position:relative;
+ 
 }
 .numero{
   text-transform: uppercase;
   font-size: xx-small;
+  font-weight: 900;
   background-color: rgba(174, 0, 255, 0.859);
+  color: yellow;
   position:absolute;
   right: 0;
   z-index: 1;

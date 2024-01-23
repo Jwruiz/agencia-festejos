@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script defer src="src/index.js">boton-hamb</script>
     <title>Js Desayunos, detalles y más</title>
     
@@ -14,14 +18,14 @@
     <header class="header">
       <nav class="nav">
         <div class="container-img">
-          <img class="navbar_logo" src="./img/JS-logos_transparent.png" alt="logotipo de la marca JS festejos">
+          <img class="navbar_logo" src="./img/nLogo.jpeg" alt="logotipo de la marca JS festejos">
           <p class="tituloMovil">Desayunos, Detalles y mas</p>
         </div>
         <button class="nav-toggle" aria-label="Abrir menú">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-menu">
-          <li class="nav-menu-item">
+          <li class="nav-menu-item" id="menu_movile">
             <a href="#" class="nav-menu-link nav-link">Desayunos</a>
           </li>
           <li class="nav-menu-item">
@@ -38,8 +42,8 @@
     <main class="main_img">
       
       <section class="banner bg_img">
-        <p class="banner_title">Desayunos sorpresas, detalles 100% personalizados, picoteos, mesas dulces para tus fiestas y eventos</p>
-        <div class="formular_conteiner">
+        <p class="banner_title">Desayunos sorpresas, Detalles 100% personalizados, picoteos, mesas dulces para tus fiestas y eventos</p>
+        <div class="formular_conteiner animate__animated animate__bounce">
           <p class="formular_title" id="contacto">Envianos tu Consulta</p>
           <p><a class="formular_link" target="_blank" href="https://api.whatsapp.com/send?phone=34722415191">Contacto</a></p>
         </div>
@@ -47,51 +51,180 @@
 
       <div class="accordeon_contiener">
         <div id="servicios">
-          <h3>servicios</h3>
+          <h3 class="accordeon_title">Nuestros Servicios</h3>
+          <section>
+
+          </section>
         </div>
-      <button class="accordeon acc1">Desayunos Personalizados</button>
-      <div class="panel">
-        <section class="grid_img">
+        <button class="accordeon acc1">Desayunos</button>
+        <div class="panel">
+          <section class="grid_img">
+            <div class="grid_pic">
+              <picture class="contenedor_numero"><span class="numero">numero 1</span>
+                <img src="./img/desayuno-1.jpeg" alt="imagen de desayuno n1">  
+              </picture>  
+            </div>
+            <div class="grid_pic">
+              <picture class="contenedor_numero"><span class="numero">numero 1</span>
+                <img src="./img/desayuno-2.jpeg" alt="imagen de desayuno n2"> 
+              </picture>   
+          </div>
           <div class="grid_pic">
             <picture class="contenedor_numero"><span class="numero">numero 1</span>
-              <img src="./img/P-1.jpeg" alt="imagen de plato picoteo n1">  
+              <img src="./img/desayuno-3.jpeg" alt="imagen de desayuno n3">    
+            </picture>
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-4.jpeg" alt="imagen de desayuno n4">   
+            </picture> 
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-5.jpeg" alt="imagen de desayuno n5">  
             </picture>  
           </div>
           <div class="grid_pic">
             <picture class="contenedor_numero"><span class="numero">numero 1</span>
-              <img src="./img/P-2.jpeg" alt="imagen de plato picoteo n2"> 
+              <img src="./img/desayuno-6.jpeg" alt="imagen de desayuno n6">  
+            </picture> 
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-7.jpeg" alt="imagen de desayuno n7">   
+          </picture> 
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-8.jpeg" alt="imagen de desayuno n8">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-9.jpeg" alt="imagen de desayuno n9">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-10.jpeg" alt="imagen de desayuno n10">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-11.jpeg" alt="imagen de desayuno n11">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-12.jpeg" alt="imagen de desayuno n12">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-13.jpeg" alt="imagen de desayuno n13">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-14.jpeg" alt="imagen de desayuno n14">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-15.jpeg" alt="imagen de desayuno n15">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-16.jpeg" alt="imagen de desayuno n16">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-17.jpeg" alt="imagen de desayuno n17">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/desayuno-18.jpeg" alt="imagen de desayuno n18">  
+            </picture>  
+          </div>
+        </div>
+        <!-- detalles -->
+      <button class="accordeon acc1">Detalles Sorpresas</button>
+      <div class="panel">
+        <section class="grid_img">
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/detalles-1.jpeg" alt="imagen de detalles n1">  
+            </picture>  
+          </div>
+          <div class="grid_pic">
+            <picture class="contenedor_numero"><span class="numero">numero 1</span>
+              <img src="./img/detalles-10.jpeg" alt="imagen de detalles n2"> 
             </picture>   
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-3.jpeg" alt="imagen de plato picoteo n3">    
+            <img src="./img/detalles-3.jpg" alt="imagen de detallesn3">    
           </picture>
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-4.jpeg" alt="imagen de plato picoteo n4">   
+            <img src="./img/detalles-4.jpeg" alt="imagen de detalles n4">   
           </picture> 
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-5.jpeg" alt="imagen de plato picoteo n5">  
+            <img src="./img/detalles-5.jpeg" alt="imagen de detalles n5">  
           </picture>  
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-6.jpeg" alt="imagen de plato picoteo n6">  
+            <img src="./img/detalles-14.jpeg" alt="imagen de detalles n6">  
           </picture> 
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-7.jpeg" alt="imagen de plato picoteo n7">   
+            <img src="./img/detalles-7.jpeg" alt="imagen de detalles n7">   
         </picture> 
         </div>
         <div class="grid_pic">
           <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/picoteo-carta.jpeg" alt="imagen de menu plato picoteo n8">  
-          </picture>  
+            <img src="./img/detalles-8.jpeg" alt="imagen de detalles n8">   
+        </picture> 
         </div>
+        <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-9.jpeg" alt="imagen de detalles n9">   
+        </picture> 
+        </div>
+<!--         <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-10.jpeg" alt="imagen de detalles n10">   
+        </picture> 
+        </div> -->
+        <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-11.jpeg" alt="imagen de detalles n11">   
+        </picture> 
+        </div>
+        <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-12.jpeg" alt="imagen de detalles n12">   
+        </picture> 
+        </div>
+        <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-13.jpeg" alt="imagen de detalles n13">   
+        </picture> 
+        </div>
+<!--         <div class="grid_pic">
+          <picture class="contenedor_numero"><span class="numero">numero 1</span>
+            <img src="./img/detalles-14.jpeg" alt="imagen de detalles n14">   
+        </picture> 
+        </div> -->
+
       </div>
       <button class="accordeon acc2">Picoteo</button>
       <div class="panel">
@@ -137,51 +270,7 @@
           </picture>  
         </div>
       </div>
-      <button class="accordeon acc3">Mesas Dulces</button>
 
-      <div class="panel">
-      <section class="grid_img">
-        <div class="grid_pic">
-          <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-1.jpeg" alt="imagen de plato picoteo n1">  
-          </picture>  
-        </div>
-        <div class="grid_pic">
-          <picture class="contenedor_numero"><span class="numero">numero 1</span>
-            <img src="./img/P-2.jpeg" alt="imagen de plato picoteo n2"> 
-          </picture>   
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/P-3.jpeg" alt="imagen de plato picoteo n3">    
-        </picture>
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/P-4.jpeg" alt="imagen de plato picoteo n4">   
-        </picture> 
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/P-5.jpeg" alt="imagen de plato picoteo n5">  
-        </picture>  
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/P-6.jpeg" alt="imagen de plato picoteo n6">  
-        </picture> 
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/P-7.jpeg" alt="imagen de plato picoteo n7">   
-      </picture> 
-      </div>
-      <div class="grid_pic">
-        <picture class="contenedor_numero"><span class="numero">numero 1</span>
-          <img src="./img/picoteo-carta.jpeg" alt="imagen de menu plato picoteo n8">  
-        </picture>  
-      </div>
-      </div>
         <section class="pag_service">
           <div class="service_item"> 
             <p>Buen trato</p>
@@ -194,7 +283,7 @@
           <div class="service_item">
             <p>Entregas en 12 horas</p>
             <i class="fa-solid fa-truck-fast fa-bounce" style="color: #480d63;"></i>
-          </div>
+          </div> 
         </section>  
       
     </main>
@@ -202,11 +291,9 @@
     <footer>
       <section class="footer_conteiner">
         <ul class="foot_menu">
-          <li class="foot_link"><a href="https://www.instagram.com/js_festejos_/" target="_blank"><i class="fa-brands fa-instagram" style="color: #511f4d;"></i></a></li>
-          <li class="foot_link">
-            <a href="https://www.facebook.com/people/JSFestejos/100070284752425/" target="_blank"><i class="fa-brands fa-facebook" style="color: #511f50;"></i></a></li>
-          <li class="foot_link">
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=34722415191"><i class="fa-brands fa-whatsapp" style="color: #511f48;"></i></a></li>
+          <li class="foot_link" id=""><a href="https://www.instagram.com/js_festejos_/" target="_blank"><i class="fa-brands fa-instagram" style="color: #511f4d;"></i></a></li>
+          <li class="foot_link"><a href="https://www.facebook.com/people/JSFestejos/100070284752425/" target="_blank"><i class="fa-brands fa-facebook" style="color: #511f50;"></i></a></li>
+          <li class="foot_link"><a target="_blank" href="https://api.whatsapp.com/send?phone=34722415191"><i class="fa-brands fa-whatsapp" style="color: #511f48;"></i></a></li>
         </ul>
         <p class="foot_text">todos los derechos reservados, 2024  <i class="fa-solid fa-copyright" style="color: #511f4b;"></i></p>
         <div class="foot_img">
@@ -216,5 +303,6 @@
     </footer>
 <!--     <script src="./src/slider.js"></script> -->
     <script src="./src/main.js"></script>
+    <script src="./src/enlaces.js">enlaces</script>
   </body>
   </html>
